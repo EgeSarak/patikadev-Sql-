@@ -1,0 +1,17 @@
+#1
+select distinct replacement_cost from film; 
+
+#2
+select count(distinct replacement_cost) from film; 
+
+#3
+SELECT COUNT(*) FROM film
+WHERE title LIKE 'T%' AND rating = 'G';
+
+#4
+select count(*) from country
+where country like '_____';
+
+#5
+select count(*) from city
+where city ilike '%R';
